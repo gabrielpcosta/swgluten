@@ -3,7 +3,6 @@ package com.app.swgluten.ui.adapters;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-
 /**
  * Created by GabrielPereira on 27/06/2015.
  */

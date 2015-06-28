@@ -1,7 +1,6 @@
 package com.app.swgluten.model;
 
 import com.parse.ParseGeoPoint;
-
 /**
  * Created by GabrielPereira on 27/06/2015.
  */
