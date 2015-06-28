@@ -5,26 +5,28 @@ import java.util.List;
 /**
  * Created by GabrielPereira on 27/06/2015.
  */
-public class Comments {
+public class Comment {
     private int avaliation;
     private int price_category;
     private String description;
-    private List<User> user;
-    private Business business;
+    private User user;
 
-    public Business getBusiness() {
-        return business;
+    public Comment(String description, int avaliation, int price_category) {
+        this.description = description;
+        this.avaliation = avaliation;
+        this.price_category = price_category;
     }
 
-    public void setBusiness(Business business) {
-        this.business = business;
+    public Comment(String description, int avaliation, int price_category, User user) {
+        this(description, avaliation, price_category);
+        this.user = user;
     }
 
-    public List<User> getUser() {
+    public User getUser() {
         return user;
     }
 
-    public void setUser(List<User> user) {
+    public void setUser(User user) {
         this.user = user;
     }
 
