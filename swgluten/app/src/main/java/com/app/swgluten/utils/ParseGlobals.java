@@ -17,9 +17,9 @@ public class ParseGlobals {
     public static String BUSINESS_LOCATION = "Localizacao";
     public static String BUSINESS_COMMENTS = "Comentarios";
 
-
     public static String COMMENT_CLASS = "Comentario";
-    //public static String
+    public static String COMMENT_AVALIATION = "Avaliacao";
+    public static String COMMENT_PRICE_CATEGORY = "CategoriaPreco";
 
     public static String SUGGESTION_CLASS = "Sugestao";
 }
