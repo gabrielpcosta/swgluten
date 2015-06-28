@@ -7,7 +7,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.app.swgluten.BusinessProfileActivity">
+    tools:context="com.app.swgluten.ui.activities.BusinessProfileActivity">
 
     <ImageView
         android:id="@+id/img_establishment"

@@ -48,7 +48,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".BusinessProfileActivity"
+            android:name=".ui.activities.BusinessProfileActivity"
             android:label="@string/title_activity_business_profile" >
         </activity>
     </application>
