@@ -29,7 +29,7 @@ import bolts.Task;
 
 
 public class FirstPageActivity extends Activity{
-    private ArrayList<Business> businessess;
+    private ArrayList<Business> businessess = new ArrayList<>();
 
     private ListView bussiness_list;
     private ImageButton btn_filter_no_gluten;
@@ -38,11 +38,11 @@ public class FirstPageActivity extends Activity{
     private ImageButton btn_order_by_price;
     private ImageButton btn_order_by_avaliation;
     private ImageButton btn_order_by_distance;
-    private Button btn_suggest;
     private ImageButton btn_read_hint;
     private ImageButton btn_promotion;
     private ImageButton btn_favorite;
     private ImageButton btn_my_profile;
+    private Button btn_suggest;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,13 +63,13 @@ public class FirstPageActivity extends Activity{
 
         btn_filter_no_lactose = (ImageButton) findViewById(R.id.filter_no_lactose);
 
-        btn_filter_no_gluten_lactose = (ImageButton) findViewById(R.id.filter_no_gluten_lactose);
+        /*btn_filter_no_gluten_lactose = (ImageButton) findViewById(R.id.filter_no_gluten_lactose);
 
         btn_order_by_price = (ImageButton) findViewById(R.id.order_by_price);
 
         btn_order_by_avaliation = (ImageButton) findViewById(R.id.order_by_avaliation);
 
-        btn_order_by_distance = (ImageButton) findViewById(R.id.order_by_distance);
+        btn_order_by_distance = (ImageButton) findViewById(R.id.order_by_distance);*/
 
         btn_suggest = (Button) findViewById(R.id.btn_suggest);
 
